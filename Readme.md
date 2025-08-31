@@ -109,7 +109,7 @@ http://127.0.0.1:5000
 ## Author
 **Krish Modh**  
 - GitHub: [Krish Modh](https://github.com/KrishModh)  
-- LinkedIn: [Krish Modh](www.linkedin.com/in/krish-modh-b38447300)
+- LinkedIn: [Krish Modh](https://www.linkedin.com/in/krish-modh-b38447300)
 
 ---
 
