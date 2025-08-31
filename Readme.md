@@ -1,6 +1,7 @@
 # Flask Oracle DB Web App
 
-![Project Image](path/to/your-image.png)
+<img width="2560" height="1440" alt="Screenshot (230)" src="https://github.com/user-attachments/assets/5443ab6b-c119-4be9-8b8c-eebd10f35ae8" />
+
 
 ## Project Overview
 This is a web application built using **Python**, **Flask**, and **Oracle SQL**. The project features a full **user authentication system** with **login** and **signup** functionalities, including separate **admin** and **user** sides. The app is fully **responsive** and runs on **localhost**.
@@ -83,13 +84,18 @@ http://127.0.0.1:5000
 
 ## Screenshots
 ### Login Page
-![Login](path/to/login-image.png)
+<img width="2560" height="1440" alt="Screenshot (232)" src="https://github.com/user-attachments/assets/78a6b109-d800-4c79-b6b3-ba825ad655d7" />
+
+### Signup Page
+<img width="2560" height="1440" alt="Screenshot (235)" src="https://github.com/user-attachments/assets/b3d2a320-cc3e-40fc-a5ee-d7e0ecc2ff41" />
 
 ### User Dashboard
-![User Dashboard](path/to/user-dashboard.png)
+<img width="2560" height="1440" alt="Screenshot (233)" src="https://github.com/user-attachments/assets/3e27d565-f0df-47bf-9fd8-3c1e19650660" />
+
 
 ### Admin Dashboard
-![Admin Dashboard](path/to/admin-dashboard.png)
+<img width="2560" height="1440" alt="Screenshot (234)" src="https://github.com/user-attachments/assets/cd3cb741-eed6-406d-9075-08df4d3c27a2" />
+
 
 ---
 
