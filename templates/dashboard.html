@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../static/dashboard.css">
+</head>
+
+<body class="dark">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>⚡ My App</h2>
+        <a href="#">🏠 Home</a>
+        <a href="#">ℹ️ About</a>
+        <a href="#">📞 Contact</a>
+        <a href="/logout">🚪 Logout</a>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="title">📊 Dashboard</div>
+            <div class="username">Hi, {{ username }}</div>
+            <div class="topbar-right">
+                <button class="toggle-btn" onclick="toggleMode()">☀️ Light</button>
+                <button class="hamburger" onclick="toggleSidebar()">☰</button>
+            </div>
+        </div>
+
+        <!-- Dashboard Content -->
+        <div class="dashboard-content">
+            <div class="card">
+                <h3>🚀 Welcome</h3>
+                <p>Welcome to your personal dashboard. Manage your activities and track updates here.</p>
+            </div>
+
+            <div class="card">
+                <h3>📈 Stats</h3>
+                <p>Monitor your growth, insights, and performance metrics in real-time.</p>
+            </div>
+
+            <div class="card">
+                <h3>🔔 Notifications</h3>
+                <p>Stay updated with the latest alerts and messages tailored for you.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("light");
+            const btn = document.querySelector(".toggle-btn");
+            if (document.body.classList.contains("light")) {
+                btn.textContent = "🌙 Dark";
+            } else {
+                btn.textContent = "☀️ Light";
+            }
+        }
+
+        function toggleSidebar() {
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.classList.toggle("active");
+        }
+
+        // Optional: Close sidebar when clicking a link (for mobile)
+        const sidebarLinks = document.querySelectorAll(".sidebar a");
+        sidebarLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                const sidebar = document.querySelector(".sidebar");
+                if (window.innerWidth <= 900) sidebar.classList.remove("active");
+            });
+        });
+    </script>
+</body>
+
+</html>
