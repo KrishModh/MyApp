@@ -112,7 +112,3 @@ http://127.0.0.1:5000
 - LinkedIn: [Krish Modh](https://www.linkedin.com/in/krish-modh-b38447300)
 
 ---
-
-## License
-This project is licensed under the MIT License.
-
