@@ -39,8 +39,8 @@ This is a web application built using **Python**, **Flask**, and **Oracle SQL**.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/KrishModh/MyApp.git
+cd MyApp
 ```
 
 2. Create a virtual environment and activate it:
